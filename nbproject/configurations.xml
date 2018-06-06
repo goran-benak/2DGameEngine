@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>ECS.hpp</itemPath>
+      <itemPath>Game.hpp</itemPath>
+      <itemPath>GameObject.hpp</itemPath>
+      <itemPath>Map.hpp</itemPath>
+      <itemPath>TextureManager.hpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>assets/Enemy.png</itemPath>
+      <itemPath>assets/Player.png</itemPath>
+      <itemPath>assets/dirt.png</itemPath>
+      <itemPath>assets/grass.png</itemPath>
+      <itemPath>assets/water.png</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>ECS.cpp</itemPath>
+      <itemPath>Game.cpp</itemPath>
+      <itemPath>GameObject.cpp</itemPath>
+      <itemPath>Map.cpp</itemPath>
+      <itemPath>TextureManager.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>11</standard>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibLibItem>SDL2</linkerLibLibItem>
+            <linkerLibLibItem>SDL2_image</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="ECS.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ECS.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Game.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GameObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GameObject.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Map.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TextureManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TextureManager.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="assets/Enemy.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="assets/Player.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="assets/dirt.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="assets/grass.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="assets/water.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <standard>11</standard>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="ECS.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ECS.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Game.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Game.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="GameObject.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="GameObject.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Map.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Map.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="TextureManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="TextureManager.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="assets/Enemy.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="assets/Player.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="assets/dirt.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="assets/grass.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="assets/water.png" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
