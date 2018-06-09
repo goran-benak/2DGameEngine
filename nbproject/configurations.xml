@@ -4,6 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Components.hpp</itemPath>
       <itemPath>ECS.hpp</itemPath>
       <itemPath>Game.hpp</itemPath>
       <itemPath>GameObject.hpp</itemPath>
@@ -22,7 +23,6 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>ECS.cpp</itemPath>
       <itemPath>Game.cpp</itemPath>
       <itemPath>GameObject.cpp</itemPath>
       <itemPath>Map.cpp</itemPath>
@@ -60,7 +60,7 @@
           </linkerLibItems>
         </linkerTool>
       </compileType>
-      <item path="ECS.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Components.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ECS.hpp" ex="false" tool="3" flavor2="0">
       </item>
@@ -114,7 +114,7 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="ECS.cpp" ex="false" tool="1" flavor2="0">
+      <item path="Components.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="ECS.hpp" ex="false" tool="3" flavor2="0">
       </item>
