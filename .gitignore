@@ -1,3 +1,4 @@
 /dist/*
 /build/*
 *.o
+dist/Debug/GNU-Linux/2dgameengine
